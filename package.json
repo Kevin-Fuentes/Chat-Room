@@ -1,0 +1,13 @@
+{
+     "name": "chat_room",
+     "version": "0.0.1",
+     "dependencies": {
+          "express": "*",
+          "nodemon": "^2.0.4",
+          "socket.io": ""
+     },
+     "scripts": {
+          "start": "node servidor.js",
+          "dev": "nodemon servidor"
+     }
+}
