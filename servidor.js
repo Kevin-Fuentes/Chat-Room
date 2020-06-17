@@ -6,11 +6,11 @@ const  server = http.createServer(app);
 
 let usuarios =[]
 
+
 const port = process.env.PORT || 4000
-app.listen(port,'0.0.0.0',()=>{
+server.listen(port,'0.0.0.0',()=>{
      console.log('Conectado en el puerto:',port)
 })
-
 
 
 const io = socket.listen(server);
